@@ -45,6 +45,7 @@ Hamza Elmourabit , Oussama Hajar
 6. L’IA s’exécute automatiquement et affiche le résultat.
 
 ## 🗂️ Structure du projet
+```
 Assets/
 ├── Scenes/
 │ └── MainScene.unity # Scène principale AR
@@ -55,6 +56,7 @@ Assets/
 ├── UI/
 │ └── ResultText # (optionnel) TextMeshPro pour affichage IA
 ├── Materials/ # (optionnel) matériaux
+```
 
 ## 🧪 Détail du script principal (`ARTapToPlace.cs`)
 - **Rôle** : détecter les taps/clics, lancer un raycast sur les plans AR, instancier l’objet, déclencher l’analyse IA.
